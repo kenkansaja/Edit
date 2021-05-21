@@ -38,7 +38,8 @@
       "CHANNEL_ID": {
       "description": "Isi dengan id channel kamu, bukan id group",
       "value": "",
-      "required": false        
+      "required": false 
+    }   
   },
   "addons": [
   ],
