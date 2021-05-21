@@ -1,12 +1,10 @@
 {
   "name": "Edit",
   "description": "Telegram auto caption bot. Create your Fork now.",
-  "success_url": "https://github.com/kenkannih/Edit",
-  "website": "https://github.com/kenkannih/Edit",
   "repository": "https://github.com/kenkannih/Edit",
   "logo": "https://telegra.ph/file/a112fce4e23d859badcd4.jpg",
 
-    "env": {
+ "env": {
     "WEBHOOK": {
       "description": "Menyetel ini ke ANYTHING akan mengaktifkan webhook saat dalam mode env",
       "value": "ANYTHING"
