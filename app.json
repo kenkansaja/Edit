@@ -33,12 +33,7 @@
       "description": "Username Admin jangan pake [@], contoh kenkanasw",
       "value": "",
       "required": false
-    },
-      "CHANNEL_ID": {
-      "description": "Isi dengan id channel kamu, bukan id group",
-      "value": "",
-      "required": false 
-    }   
+    }
   },
   "addons": [
   ],
