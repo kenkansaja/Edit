@@ -15,6 +15,10 @@ usercaption_position = Config.CAPTION_POSITION
 caption_position = usercaption_position.lower()
 caption_text = Config.CAPTION_TEXT
 chat_id = Config.CHANNEL_ID
+link = f"https://t.me/{chat_id}
+markup = InlineKeyboardMarkup([[InlineKeyboardButton("📩 CHANNEL 📩", url=f"https://t.me{link}]])
+
+
 
 @autocaption.on_message(filters.channel & (filters.document | filters.video | filters.audio ) & ~filters.edited, group=-1)
 async def editing(bot, message):
@@ -27,21 +31,21 @@ async def editing(bot, message):
           pass
       try:
           if caption_position == "top":
-             await bot.edit_message_caption(
+             await bot.edit_message_caption_markup(
                  chat_id = message.chat.id, 
                  message_id = message.message_id,
                  caption = caption_text + "\n" + file_caption,
                  parse_mode = "markdown"
              )
           elif caption_position == "bottom":
-             await bot.edit_message_caption(
+             await bot.edit_message_caption_markup(
                  chat_id = message.chat.id, 
                  message_id = message.message_id,
                  caption = file_caption + "\n" + caption_text,
                  parse_mode = "markdown"
              )
           elif caption_position == "nil":
-             await bot.edit_message_caption(
+             await bot.edit_message_caption_markup(
                  chat_id = message.chat.id,
                  message_id = message.message_id,
                  caption = caption_text, 
