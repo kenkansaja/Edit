@@ -21,12 +21,11 @@ start_button=InlineKeyboardMarkup(
                   InlineKeyboardButton("📄 BOT STATUS", callback_data = "status_data")
               ], 
               [
-                  InlineKeyboardButton("📫 UPDATES", url = "https://t.me/Ts_bots"), 
-                  InlineKeyboardButton("📕 ABOUT", callback_data = "about_data")
+                  InlineKeyboardButton("👤 OWNER", url = "https://t.me/kenkanasw")
               ], 
               [
-                  InlineKeyboardButton("💡 HELP", callback_data = "help_data"), 
-                  InlineKeyboardButton("🔐 CLOSE", callback_data = "close_data")
+                  InlineKeyboardButton("💡 BANTUAN", callback_data = "help_data"), 
+                  InlineKeyboardButton("⛔ TUTUP", callback_data = "close_data")
               ] 
         ]
 )
@@ -39,8 +38,8 @@ help_button=InlineKeyboardMarkup(
                 InlineKeyboardButton("ABOUT MARKDOWN", callback_data = "markdown_data")
               ], 
               [
-                  InlineKeyboardButton("⬇️ BACK", callback_data = "back_data"), 
-                  InlineKeyboardButton("🔐 CLOSE", callback_data = "close_data")
+                  InlineKeyboardButton("🔙 KEMBALI", callback_data = "back_data"), 
+                  InlineKeyboardButton("⛔ TUTUP", callback_data = "close_data")
               ]
         ]
 ) 
@@ -50,8 +49,8 @@ help_button=InlineKeyboardMarkup(
 about_button=InlineKeyboardMarkup(
         [
               [
-                  InlineKeyboardButton("⬇️ BACK", callback_data = "back_data"), 
-                  InlineKeyboardButton("🔐 CLOSE", callback_data = "close_data")
+                  InlineKeyboardButton("🔙 KEMBALI", callback_data = "back_data"), 
+                  InlineKeyboardButton("⛔ TUTUP", callback_data = "close_data")
               ]
         ]
 ) 
@@ -107,8 +106,8 @@ async def button(bot, cmd: CallbackQuery):
              reply_markup=InlineKeyboardMarkup(
                  [
                      [
-                      InlineKeyboardButton("⬇️ BACK", callback_data="back_data"),
-                      InlineKeyboardButton("🔐 CLOSE", callback_data="close_data")
+                      InlineKeyboardButton("🔙 KEMBALI", callback_data="back_data"),
+                      InlineKeyboardButton("⛔ TUTUP", callback_data="close_data")
                      ]
  
                  ] 
@@ -125,8 +124,8 @@ async def button(bot, cmd: CallbackQuery):
                         InlineKeyboardButton("ABOUT MARKDOWN", callback_data = "markdown_data")
                        ],
                        [
-                        InlineKeyboardButton("⬇️ BACK", callback_data="back_data"),
-                        InlineKeyboardButton("🔐 CLOSE", callback_data="close_data")
+                        InlineKeyboardButton("🔙 KEMBALI", callback_data="back_data"),
+                        InlineKeyboardButton("⛔ TUTUP", callback_data="close_data")
                        ]
  
                    ] 
@@ -144,12 +143,11 @@ async def button(bot, cmd: CallbackQuery):
                         InlineKeyboardButton("📄 BOT STATUS", callback_data = "status_data")
                        ], 
                        [
-                        InlineKeyboardButton("📫 UPDATES", url="https://t.me/ts_bots"),
-                        InlineKeyboardButton("📕 ABOUT ME", callback_data="about_data")
+                        InlineKeyboardButton("👤 MY OWNER", url="https://t.me/kenkanasw")                        
                        ],
                        [
-                        InlineKeyboardButton("💡 HELP", callback_data="help_data"),
-                        InlineKeyboardButton("🔐 CLOSE", callback_data="close_data")
+                        InlineKeyboardButton("💡 BANTUAN", callback_data="help_data"),
+                        InlineKeyboardButton("⛔ TUTUP", callback_data="close_data")
                        ]
                    ]
                )
@@ -166,8 +164,8 @@ async def button(bot, cmd: CallbackQuery):
                reply_markup=InlineKeyboardMarkup(
                    [
                        [
-                        InlineKeyboardButton("⬇️ BACK", callback_data="help_data"),
-                        InlineKeyboardButton("🔐 CLOSE", callback_data="close_data")
+                        InlineKeyboardButton("🔙 KEMBALI", callback_data="help_data"),
+                        InlineKeyboardButton("⛔ TUTUP", callback_data="close_data")
                        ]
  
                    ] 
@@ -181,8 +179,8 @@ async def button(bot, cmd: CallbackQuery):
                reply_markup=InlineKeyboardMarkup(
                    [
                        [
-                        InlineKeyboardButton("⬇️ BACK", callback_data="back_data"),
-                        InlineKeyboardButton("🔐 CLOSE", callback_data="close_data")
+                        InlineKeyboardButton("🔙 KEMBALI", callback_data="back_data"),
+                        InlineKeyboardButton("⛔ TUTUP", callback_data="close_data")
                        ]
  
                    ] 
