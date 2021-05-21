@@ -4,7 +4,7 @@
   "repository": "https://github.com/kenkannih/Edit",
   "logo": "https://telegra.ph/file/a112fce4e23d859badcd4.jpg",
 
- 
+  "env": {
     "WEBHOOK": {
       "description": "Menyetel ini ke ANYTHING akan mengaktifkan webhook saat dalam mode env",
       "value": "ANYTHING"
