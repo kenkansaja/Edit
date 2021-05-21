@@ -21,9 +21,8 @@ CAPTION_POSITION - Position of your caption
 - top - Keterangan akan di sisipkan di atas file
 - nil - Keterangan akan di tumpuk dengan keterangan yang sudah ada
 
-```
 
-### KETERANGAN
+## KETERANGAN
 
 Repo ini bukan saya yang buat, saya hanya suka memodifikasi repo saja
 Kalau mau yang original bisa cek di
