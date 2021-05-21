@@ -12,6 +12,10 @@
 Ini adalah bot keterangan otomatis yang menambahkan keterangan yang ditentukan oleh admin bot
 
 <i>(Hanya di saluran baik saluran Telegram publik atau pribadi)</i>
+# DEPLOY HEROKU
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kenkannih/Edit)
+
 
 ### Commands
 
