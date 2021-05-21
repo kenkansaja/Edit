@@ -1,12 +1,7 @@
 {
   "name": "Edit",
   "description": "Telegram auto caption bot. Create your Fork now.",
-  "keywords": [
-    "telegram",
-    "best",
-    "auto",
-    "caption" 
-  ],
+  
   "success_url": "https://github.com/kenkannih/Edit",
   "website": "https://github.com/kenkannih/Edit",
   "repository": "https://github.com/kenkannih/Edit",
