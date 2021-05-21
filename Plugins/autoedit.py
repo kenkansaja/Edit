@@ -7,19 +7,22 @@ import asyncio
 from pyrogram import filters
 from bot import autocaption
 from config import Config
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 
 # =
 usercaption_position = Config.CAPTION_POSITION
 caption_position = usercaption_position.lower()
 caption_text = Config.CAPTION_TEXT
-
+chat_id = Config.CHANNEL_ID
 
 @autocaption.on_message(filters.channel & (filters.document | filters.video | filters.audio ) & ~filters.edited, group=-1)
 async def editing(bot, message):
       try:
           if ( message.document or message.video or message.audio ):
              file_caption = f"**{message.caption}**"
+             link = f"https://t.me/{chat_id}
+            reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("📩 CHANNEL 📩", url=f"https://t.me{link}]])
       except:
           pass
       try:
