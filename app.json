@@ -16,7 +16,7 @@
       "description": "Menyetel ini ke ANYTHING akan mengaktifkan webhook saat dalam mode env",
       "value": "ANYTHING"
     },
-    "TG_BOT_TOKEN": {
+    "BOT_TOKEN": {
       "description": "Dapatkan di @botfather",
       "value": ""
     },
@@ -30,7 +30,7 @@
     },
     "CAPTION_TEXT": {
       "description": "Isi dengan teks yang mau di jadikan teks defalut unggahan [nothing]",
-      "value": "", 
+      "value": ""
       "required": false 
     },
     "CAPTION_POSITION": {
@@ -39,9 +39,13 @@
     },
     "ADMIN_USERNAME": {
       "description": "Username Admin jangan pake [@], contoh kenkanasw",
-      "value": "kenkanasw", 
+      "value": ""
       "required": false
-    }        
+    },
+      "CHANNEL_ID": {
+      "description": "Isi dengan id channel kamu, bukan id group",
+      "value": ""
+      "required": false        
     
   },
   "addons": [
