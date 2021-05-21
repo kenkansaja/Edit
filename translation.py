@@ -45,7 +45,7 @@ Saat ini saya bekerja untuk saluran jika Anda ingin menggunakan saya, Gunakan ko
 
 📌 <code>[Contoh](https://t.me/kenkanasw)</code> 
 
-<b><a href="https://t.me/kenkanasw">My Owner</a></b>
+<b><a href="https://t.me/kenkanasw">👤My Owner👤</a></b>
 
 """
 
@@ -61,7 +61,7 @@ Saat ini saya bekerja untuk saluran jika Anda ingin menggunakan saya, Gunakan ko
 
 📐 <b>Current Position :</b> {}
 
-<b><a href="https://t.me/Ts_bots">©️ ᴛʀᴀᴄᴋsᴛᴜᴅɪᴏ's ʙᴏᴛs</a></b>
+<b><a href="https://t.me/kenkanasw">👤My Owner</a></b>
 
 """
 
