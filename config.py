@@ -9,4 +9,4 @@ class Config(object):
       CAPTION_TEXT = os.environ.get("CAPTION_TEXT", "")
       CAPTION_POSITION = os.environ.get("CAPTION_POSITION", "nil")
       ADMIN_USERNAME = os.environ.get("ADMIN_USERNAME", "Ts_Bots")
-      CHANNEL_ID = os.environ.get("CHANNEL_ID", "")
+
