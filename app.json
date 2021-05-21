@@ -30,7 +30,7 @@
     },
     "CAPTION_TEXT": {
       "description": "Isi dengan teks yang mau di jadikan teks defalut unggahan [nothing]",
-      "value": ""
+      "value": "",
       "required": false 
     },
     "CAPTION_POSITION": {
@@ -39,14 +39,13 @@
     },
     "ADMIN_USERNAME": {
       "description": "Username Admin jangan pake [@], contoh kenkanasw",
-      "value": ""
+      "value": "",
       "required": false
     },
       "CHANNEL_ID": {
       "description": "Isi dengan id channel kamu, bukan id group",
-      "value": ""
+      "value": "",
       "required": false        
-    
   },
   "addons": [
   ],
