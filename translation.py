@@ -55,11 +55,11 @@ Saat ini saya bekerja untuk saluran jika Anda ingin menggunakan saya, Gunakan ko
 
 🔰 <u>𝐁𝐎𝐓 𝐒𝐓𝐀𝐓𝐔𝐒</u>
 
-🖌️ <b>Current Caption :</b>
+🖌️ <b>Keterangan saat ini :</b>
 
 {}
 
-📐 <b>Current Position :</b> {}
+📐 <b>Posisi saat ini :</b> {}
 
 <b><a href="https://t.me/kenkanasw">👤My Owner</a></b>
 
