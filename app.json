@@ -1,6 +1,6 @@
 {
   "name": "Edit",
-  "description": "Telegram auto caption bot. Create your Fork now.",
+  "description": "Bot otomatis untuk telegram, yang akan membantumu mengelola channel, setiap phostingan kamu akan di tambahkan caption oleh bot sesuai kata yang kamu input di heroku.",
   "repository": "https://github.com/kenkannih/Edit",
   "logo": "https://telegra.ph/file/a112fce4e23d859badcd4.jpg",
   "env": {
