@@ -20,6 +20,8 @@ async def editing(bot, message):
       try:
           if ( message.document or message.video or message.audio or message.photo ):
              file_caption = f"**{message.caption}**"
+             link = f"{chat.id}"
+             reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("💬CHANNEL💬", url=f'https://telegram.me/url?url={link}')]])
       except:
           pass
       try:
