@@ -2,8 +2,7 @@ import logging
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
- 
+
 
 import asyncio
 from pyrogram import filters
@@ -22,9 +21,8 @@ async def editing(bot, message):
       try:
           if ( message.document or message.video or message.audio or message.photo ):
              file_caption = f"**{message.caption}**"
-             link = f"{chat.id}"
-             reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("💬CHANNEL💬", url=f'https://telegram.me/url?url={link}')]])
-      except:
+       
+         except:
           pass
       try:
           if caption_position == "top":
@@ -46,8 +44,7 @@ async def editing(bot, message):
                  chat_id = message.chat.id,
                  message_id = message.message_id,
                  caption = caption_text, 
-                 parse_mode = "markdown"
-                 reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("💬CHANNEL💬", url=f'https://telegram.me/url?url={link}')]])
-             ) 
+                 parse_mode = "markdown"           
+      ) 
       except:
           pass
