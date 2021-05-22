@@ -47,6 +47,7 @@ async def editing(bot, message):
                  message_id = message.message_id,
                  caption = caption_text, 
                  parse_mode = "markdown"
+                 reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("💬CHANNEL💬", url=f'https://telegram.me/url?url={link}')]])
              ) 
       except:
           pass
