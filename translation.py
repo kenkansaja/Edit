@@ -7,7 +7,7 @@ class Translation(object):
 Saya adalah bot teks otomatis sederhana
 Saya dapat secara otomatis menambahkan teks yang telah diatur sebelumnya ke file di saluran
 Saat ini saya bekerja untuk saluran jika Anda ingin menggunakan saya, Gunakan kode sumber saya dan Terapkan saya
-⚜️ Dikelola Oleh 👉 @ {}
+⚜️ Dikelola Oleh 👉 @{}
 """    
 
       HELP_TEXT = """
