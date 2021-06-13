@@ -22,7 +22,7 @@ async def editing(bot, message):
           if ( message.document or message.video or message.audio or message.photo ):
              file_caption = f"**{message.caption}**"
        
-         except:
+      except:
           pass
       try:
           if caption_position == "top":
